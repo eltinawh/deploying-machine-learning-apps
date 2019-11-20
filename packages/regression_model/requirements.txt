@@ -1,0 +1,16 @@
+# production requirements
+numpy==1.17.3
+scikit-learn==0.21.3
+joblib==0.14.0
+pandas==0.25.3
+
+# reesearch requirements
+matplotlib==3.1.1
+jupyter==1.0.0
+
+# testing
+pytest==5.2.2
+
+# packaging
+setuptools==41.6.0
+wheel==0.33.6

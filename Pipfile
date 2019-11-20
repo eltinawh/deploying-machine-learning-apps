@@ -1,0 +1,14 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+regression-model = {editable = true,path = "./packages/regression_model"}
+flask = "*"
+marshmallow = "==2.17.0"
+
+[requires]
+python_version = "3.7"
