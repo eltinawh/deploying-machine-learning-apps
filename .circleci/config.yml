@@ -54,7 +54,7 @@ jobs:
             ./scripts/publish_model.sh ./packages/regression_model/
 
 workflows:
-  versions: 2
+  version: 2
   test-all:
     jobs:
       - test_regression_model
