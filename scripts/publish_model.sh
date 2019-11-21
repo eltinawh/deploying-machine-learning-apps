@@ -7,7 +7,7 @@ GEMFURY_URL=$PIP_EXTRA_INDEX_URL
 set -e
 
 DIRS="$@"
-BASE_DIR=${pwd}
+BASE_DIR=$(pwd)
 SETUP="setup.py"
 
 warn() {
