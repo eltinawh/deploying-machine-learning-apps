@@ -36,12 +36,12 @@ jobs:
       - run:
           name: Train model
           command:
-            .venv/bin/activate
+            . venv/bin/activate
             PYTHONPATH=./packages/regression_model python3 packages/regression_model/regression_model/train_pipeline.py
       - run:
           name: Run tests
           command: |
-            .venv/bin/activate
+            . venv/bin/activate
             py.test -vv packages/regression_model/tests
 
   test_ml_api:
