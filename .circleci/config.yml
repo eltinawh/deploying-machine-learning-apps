@@ -116,7 +116,7 @@ workflows:
           requires:
             - test_regression_model
             - test_ml_api
-            - diffential_tests
+            - differential_tests
           # filters:
           #   branches:
           #     only:
