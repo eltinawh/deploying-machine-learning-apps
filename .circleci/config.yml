@@ -117,7 +117,7 @@ workflows:
             - test_regression_model
             - test_ml_api
             - differential_tests
-          # filters:
-          #   branches:
-          #     only:
-          #       - master
+          filters:
+            branches:
+              only:
+                - master
