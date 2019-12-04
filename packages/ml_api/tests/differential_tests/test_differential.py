@@ -9,7 +9,7 @@ import pytest
 
 from api import config
 
-# @pytest.mark.skip
+@pytest.mark.skip
 @pytest.mark.differential
 def test_model_prediction_differential(
         *,
