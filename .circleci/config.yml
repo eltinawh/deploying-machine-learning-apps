@@ -99,7 +99,7 @@ jobs:
             pip install -r packages/ml_api/diff_test_requirements.txt
             PYTHONPATH=./packages/ml_api python3 packages/ml_api/tests/capture_model_predictions.py
       - run:
-          name: Running differential tests
+          name: Runnning differential tests
           command: |
             . venv/bin/activate
             pip install -r packages/ml_api/requirements.txt
