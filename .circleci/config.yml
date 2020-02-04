@@ -35,10 +35,9 @@ jobs:
       - *fetch_data
       - run:
           name: Train model
-          command:
+          command: |
             . venv/bin/activate
             PYTHONPATH=./packages/regression_model python3 packages/regression_model/regression_model/train_pipeline.py
-            ls -l /home/circleci/project/packages/regression_model/regression_model/trained_models/
       - run:
           name: Run tests
           command: |
