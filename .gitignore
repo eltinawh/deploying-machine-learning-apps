@@ -41,3 +41,7 @@ Pipfile*
 # Data files
 train.csv
 test.csv
+test_data_predictions.csv
+
+# Model
+*.pkl
