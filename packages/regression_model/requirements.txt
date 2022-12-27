@@ -12,7 +12,7 @@ pandas==0.25.3
 pytest==5.2.2
 
 # packaging
-setuptools==41.6.0
+setuptools==65.5.1
 wheel==0.33.6
 
 # fetching datasets
